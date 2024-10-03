@@ -934,6 +934,11 @@ video {
     justify-content: center;
   }
 
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm\:px-40 {
     padding-left: 10rem;
     padding-right: 10rem;

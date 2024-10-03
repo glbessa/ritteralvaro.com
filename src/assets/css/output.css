@@ -558,6 +558,10 @@ video {
   position: relative;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .flex {
   display: flex;
 }
@@ -660,6 +664,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .shrink {
@@ -844,6 +852,14 @@ video {
 
 .to-stone-400 {
   --tw-gradient-to: #a8a29e var(--tw-gradient-to-position);
+}
+
+.to-stone-200 {
+  --tw-gradient-to: #e7e5e4 var(--tw-gradient-to-position);
+}
+
+.to-stone-500 {
+  --tw-gradient-to: #78716c var(--tw-gradient-to-position);
 }
 
 .bg-cover {
